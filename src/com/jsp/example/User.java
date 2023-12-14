@@ -5,7 +5,15 @@ public class User {
 	private int userId;
 	private String userName;
 	private String userEmail;
+	private String userPassword;
 	
+	
+	public String getUserPassword() {
+		return userPassword;
+	}
+	public void setUserPassword(String userPassword) {
+		this.userPassword = userPassword;
+	}
 	public int getUserId() {
 		return userId;
 	}
